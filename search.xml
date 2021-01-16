@@ -6,5 +6,12 @@
     <content><![CDATA[<h2 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h2><p>测试</p>
 <p>Welcome to my small warm house.    </p>
 ]]></content>
+      <categories>
+        <category>博客搭建</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+        <tag>个性化</tag>
+      </tags>
   </entry>
 </search>
