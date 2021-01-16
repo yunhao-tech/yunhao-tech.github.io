@@ -3,15 +3,17 @@
   <entry>
     <title>第一个博客网站&amp;第一篇博客</title>
     <url>/posts/bc4240cc/</url>
-    <content><![CDATA[<h2 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h2><p>测试</p>
-<p>Welcome to my small warm house.    </p>
+    <content><![CDATA[<h2 id="第一个博客网站"><a href="#第一个博客网站" class="headerlink" title="第一个博客网站"></a>第一个博客网站</h2><p>欧吼，起飞！用了一天上午搭好了网站，又在接下来的几个小时中对它进行了一些个性化的设置。<br>用了node, git, hexo, sublime走完了整个搭建流程，主题我暂时选了大路边上的Next</p>
+<p>首先要感谢一些UP主和博主们的分享。<br><a href="https://www.bilibili.com/video/BV1cW411A7Jx">手把手教你搭建属于自己的hexo+github博客</a> 这真是保姆级教学了，对小白十分友好。<br><a href="https://github.com/xiazeyu/live2d-widget-models">live2d-widget-models</a> 这对我网站看板娘的搭建帮助极大<br><a href="https://xiaoxiaoxiaoxiaolin.github.io/posts/ccfc6699.html/">小晓晓晓林</a> 在网站个性化方面，借鉴了一些这位博主的经验</p>
+<h2 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h2><p>搭建这个网站的初衷，是为了记录一下学习过程中遇到的技术难题和解决方法，以及一些有趣的课程和知识。作为一篇个人博客，我也会发布一些随笔。</p>
+<p>我目前对于Markdown语法挺不熟悉，但是多练练就好了吧，正好锻炼一下Markdown语法</p>
+<p>最后，<br>Welcome to my small warm house.</p>
 ]]></content>
       <categories>
-        <category>博客搭建</category>
+        <category>博客个性化</category>
       </categories>
       <tags>
         <tag>hexo</tag>
-        <tag>个性化</tag>
       </tags>
   </entry>
 </search>
