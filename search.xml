@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>My first blog website</title>
+    <url>/2021/01/16/hello-world/</url>
+    <content><![CDATA[<h2 id="To-say-at-first"><a href="#To-say-at-first" class="headerlink" title="To say at first"></a>To say at first</h2><p>After one and a half hours, I have successfully constructed my first blog website. I’ve used GitHub, Hexo, Sublime, node for the construction. </p>
+<p>I’d like to use it as a memorandum on the way of technologie progress. I will note the techniques that I’ve learned, the interesting courses, and the solutions to several difficulties as well. </p>
+<p>For now, my skill on Markdown is not yet at a master level. But it will be practiced little by little.</p>
+<p>Welcome to my small tech house.    </p>
+]]></content>
+  </entry>
+</search>
