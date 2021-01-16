@@ -7,6 +7,15 @@
 <p>首先要感谢一些UP主和博主们的分享。<br><a href="https://www.bilibili.com/video/BV1cW411A7Jx">手把手教你搭建属于自己的hexo+github博客</a> 这真是保姆级教学了，对小白十分友好。<br><a href="https://github.com/xiazeyu/live2d-widget-models">live2d-widget-models</a> 这对我网站看板娘的搭建帮助极大<br><a href="https://xiaoxiaoxiaoxiaolin.github.io/posts/ccfc6699.html/">小晓晓晓林</a> 在网站个性化方面，借鉴了一些这位博主的经验</p>
 <h2 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h2><p>搭建这个网站的初衷，是为了记录一下学习过程中遇到的技术难题和解决方法，以及一些有趣的课程和知识。作为一篇个人博客，我也会发布一些随笔。</p>
 <p>我目前对于Markdown语法挺不熟悉，但是多练练就好了吧，正好锻炼一下Markdown语法</p>
+<p>先Mark一下写博客的流程：</p>
+<ol>
+<li>在sublime中打开博客所在目录，在source下找到_posts，在该文件夹下新建.md文件即可。</li>
+<li>每篇博客的head一般都有title, tags, categories<br>语法Example:<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">title: 博客</span><br><span class="line">tags:</span><br><span class="line">  - hexo</span><br><span class="line">  - github //多标签语法</span><br><span class="line">categories: 博客个性化</span><br></pre></td></tr></table></figure></li>
+<li>在博客目录下运行cmd，命令如下。<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo clean </span><br><span class="line">hexo g //生成静态网页</span><br><span class="line">hexo server //生成静态网页后，可以先在本地预览一下，最后再推送</span><br><span class="line">hexo d //推送到GitHub</span><br></pre></td></tr></table></figure>
+
+
+</li>
+</ol>
 <p>最后，<br>Welcome to my small warm house.</p>
 ]]></content>
       <categories>
