@@ -18,6 +18,8 @@
 <p>之后，你就可以在本地文件夹中看到相应的内容了。</p>
 <h2 id="本地代码push到远程端Github"><a href="#本地代码push到远程端Github" class="headerlink" title="本地代码push到远程端Github"></a>本地代码push到远程端Github</h2><p>当我们添加或修改了代码后，就可以将本地内容推送到远程了。这一步我喜欢用GUI操作。<br>打开相应的仓库，这时会显示我们已有的changes. Save these changes, 填写相应的commit message，大致描述为什么提交，新增或修改了哪些功能等等<br>然后点击commit, 之后push就ok了。</p>
 <p>之前提到过Github上的主分支叫main，而在Git GUI中，默认还是推送到master. 如果不想之后手动merge, 在push前可以创建名为main的分支，push时选择该分支。</p>
+<h2 id="本地代码push到远程端Github-（命令行方法）"><a href="#本地代码push到远程端Github-（命令行方法）" class="headerlink" title="本地代码push到远程端Github （命令行方法）"></a>本地代码push到远程端Github （命令行方法）</h2><p>在本地仓库目录下进入cmd，命令如下：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git pull --rebase origin main</span><br><span class="line">git push origin main</span><br></pre></td></tr></table></figure>
 <h1 id="使用Tips"><a href="#使用Tips" class="headerlink" title="使用Tips"></a>使用Tips</h1><ol>
 <li><p>这次的项目使用Java写的，IDE用的是Eclipse. 创建Eclipse项目并写完一定量代码后，我决定先上传到远程仓库。<br>这时我犯了一个错误：直接把整个项目文件夹上传了。这里面还有一些Eclipse的配置文件。我现在还没有在其他IDE环境下运行pull下来的代码，但或许会有配置问题。这个另说。<br>然而当我在本地把项目文件夹（记作A）当作仓库，并下拉Github代码时，它在A下又创建了一个A. 有点类似套娃？？？<br>所以我觉得应该只把src, bin这两个上传就好了，其他的配置文件不用管。<br>在网上就这个问题查了一下，回答说利用.gitignore文件可以自定义上传时要忽略的文件。<br>并且，<a href="https://www.toptal.com/developers/gitignore">一个可自动生成.gitignore文件的网站</a>只需要输入操作系统、IDE、编程语言就好了。</p>
 </li>
