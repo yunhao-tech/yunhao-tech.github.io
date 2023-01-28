@@ -111,14 +111,14 @@ feed:
 # hexo-butterfly-swiper
 # see https://akilar.top/posts/8e1264d1/
 swiper:
-  enable: true 
-  priority: 5 #过滤器优先权
+  enable: true
+  priority: #过滤器优先权
   enable_page: all # 应用页面
   timemode: date #date/updated
   layout: # 挂载容器类型
     type: id
     name: recent-posts
-    index: 0
+    index: 
   default_descr: 作者太懒了，请自行脑补~
   swiper_css: https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiper.min.css #swiper css依赖
   swiper_js: https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiper.min.js #swiper js依赖

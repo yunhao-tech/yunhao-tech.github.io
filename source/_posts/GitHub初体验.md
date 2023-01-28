@@ -4,8 +4,8 @@ tags:
   - GitHub
   - Git
 categories: Github
-abbrlink: bc4240cc
-swiper_index: 2 
+swiper_index: 2
+abbrlink: 251714f7
 ---
 
 # Github初体验

@@ -3,8 +3,8 @@ title: 第一个博客网站&第一篇博客
 tags:
   - hexo
 categories: 博客个性化
+swiper_index: 1
 abbrlink: bc4240cc
-swiper_index: 1 #置顶轮播图顺序，非负整数，数字越大越靠前
 ---
 
 ## 第一个博客网站
