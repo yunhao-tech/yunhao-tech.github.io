@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>桃花源里人家</title>
+  
+  
+  <link href="https://yunhao-tech.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://yunhao-tech.github.io/"/>
+  <updated>2023-01-27T21:55:55.010Z</updated>
+  <id>https://yunhao-tech.github.io/</id>
+  
+  <author>
+    <name>所蕴</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>第一个博客网站&amp;第一篇博客</title>
+    <link href="https://yunhao-tech.github.io/posts/bc4240cc/"/>
+    <id>https://yunhao-tech.github.io/posts/bc4240cc/</id>
+    <published>2023-01-28T10:19:40.166Z</published>
+    <updated>2023-01-27T21:55:55.010Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="第一个博客网站"><a href="#第一个博客网站" class="headerlink" title="第一个博客网站"></a>第一个博客网站</h2><p>欧吼，起飞！用了一天上午搭好了网站，又在接下来的几个小时中对它进行了一些个性化的设置。<br>用了node, git, hexo, sublime走完了整个搭建流程，主题我暂时选了大路边上的Next</p><p>首先要感谢一些UP主和博主们的分享。<br><a href="https://www.bilibili.com/video/BV1cW411A7Jx">手把手教你搭建属于自己的hexo+github博客</a> 这真是保姆级教学了，对小白十分友好。<br><a href="https://github.com/xiazeyu/live2d-widget-models">live2d-widget-models</a> 这对我网站看板娘的搭建帮助极大<br><a href="https://xiaoxiaoxiaoxiaolin.github.io/posts/ccfc6699.html/">小晓晓晓林</a> 在网站个性化方面，借鉴了一些这位博主的经验<br><a href="http://mkco.xyz/2020/04/02/Hexo%E8%AE%BE%E7%BD%AE/Next7.0+%E8%83%8C%E6%99%AF%E7%9A%84%E8%AE%BE%E7%BD%AE/">Hexo设置/Next7.0+背景的设置</a> 在较新版本的Next中设置背景图或背景色<br><a href="https://www.flaticon.com/">网站图标下载</a> 很棒的网站，好多可爱的icon图标可以下载<br><a href="http://yearito.cn/posts/hexo-writing-skills.html">一篇关于blog写作技巧的博客</a> 写得也不错</p><h2 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h2><p>搭建这个网站的初衷，是为了记录一下学习过程中遇到的技术难题和解决方法，以及一些有趣的课程和知识。作为一篇个人博客，我也会发布一些随笔。</p><p>我目前对于Markdown语法挺不熟悉，但是多练练就好了吧，正好锻炼一下Markdown语法</p><p>先Mark一下写博客的流程：</p><ol><li>在sublime中打开博客所在目录，在source下找到_posts，在该文件夹下新建.md文件即可。</li><li>每篇博客的head一般都有title, tags, categories<br>语法Example:<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">title: 博客</span><br><span class="line">tags:</span><br><span class="line">  - hexo</span><br><span class="line">  - github //多标签语法</span><br><span class="line">categories: 博客个性化</span><br></pre></td></tr></table></figure></li><li>在博客目录下运行cmd，命令如下。<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">hexo clean </span><br><span class="line">hexo g //生成静态网页</span><br><span class="line">hexo server //生成静态网页后，可以先在本地预览一下，最后再推送</span><br><span class="line">hexo d //推送到GitHub</span><br></pre></td></tr></table></figure></li></ol><p>最后，<br>Welcome to my small warm house.</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;第一个博客网站&quot;&gt;&lt;a href=&quot;#第一个博客网站&quot; class=&quot;headerlink&quot; title=&quot;第一个博客网站&quot;&gt;&lt;/a&gt;第一个博客网站&lt;/h2&gt;&lt;p&gt;欧吼，起飞！用了一天上午搭好了网站，又在接下来的几个小时中对它进行了一些个性化的设置。&lt;br&gt;用了n</summary>
+      
+    
+    
+    
+    <category term="博客个性化" scheme="https://yunhao-tech.github.io/categories/%E5%8D%9A%E5%AE%A2%E4%B8%AA%E6%80%A7%E5%8C%96/"/>
+    
+    
+    <category term="hexo" scheme="https://yunhao-tech.github.io/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Github及Git使用记录</title>
+    <link href="https://yunhao-tech.github.io/posts/bc4240cc/"/>
+    <id>https://yunhao-tech.github.io/posts/bc4240cc/</id>
+    <published>2023-01-28T10:19:40.163Z</published>
+    <updated>2023-01-27T21:55:42.954Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Github初体验"><a href="#Github初体验" class="headerlink" title="Github初体验"></a>Github初体验</h1><p>这不是要做算法课的编程项目嘛，两个人协同写代码。其实对于我来说，和别人一起写代码是比较新奇的体验。想起来前段时间注册的GitHub账号，这下正好派上用场！</p><h2 id="搭建远程仓库"><a href="#搭建远程仓库" class="headerlink" title="搭建远程仓库"></a>搭建远程仓库</h2><p>这一步倒没什么难的，create repository，输入仓库名就好。但注意命名时也要讲究一下，言简意赅。</p><h2 id="本地安装Git"><a href="#本地安装Git" class="headerlink" title="本地安装Git"></a>本地安装Git</h2><p>要想在本地使用仓库，pull远端代码到本地抑或是push本地代码到远端仓库，都需要本地安装Git．Git的GUI界面虽然很简单，但也是避免了在cmd下敲命令行了。</p><h2 id="Git的使用术语？"><a href="#Git的使用术语？" class="headerlink" title="Git的使用术语？"></a>Git的使用术语？</h2><p>经过我的摸索，终于对于Git这个工具熟练了一些。一般来说，从远端把代码同步到本地叫做pull; 与之相对，从本地同步到远端叫push.<br>而一个仓库允许拥有多个分支branch，多个人可以在不同子分支上同时工作，每隔一段时间后merge到主分支main上（以前叫master,据说为了政治正确被改了）<br>push代码前，需要先commit; push时，一定要注意指定推送到哪个分支，这非常重要。</p><p>如果看到一个好的项目，可以fork一下，将代码仓库克隆到远程服务端；之后，可以在该仓库自由提交；也可以通过pull request试着将自己补充的代码贡献回原仓库。这样世界各地千千万万的程序员可以自由在某个项目上贡献自己的力量，哪怕只是加了一个小小的函数。</p><p>Remark: 就在写这篇blog的时候，我突然明白了为什么要叫pull request. 这是我们向仓库owner请求，将我们的代码拉(pull)到TA的仓库中。</p><h2 id="本地创建仓库"><a href="#本地创建仓库" class="headerlink" title="本地创建仓库"></a>本地创建仓库</h2><p>可以从Git GUI新建仓库；也选择一个文件夹（一般新建一个），在该文件夹下进入cmd，通过命令</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git init</span><br></pre></td></tr></table></figure><p>指定该文件夹为新的仓库。这时在该文件夹下会创建一个名为.git的隐藏文件夹。<br>接下来，通过命令</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git remote add origin Github上的仓库网址</span><br></pre></td></tr></table></figure><p>来将该本地仓库连接到Github上的仓库。<br>接下来可以把远程端Github上的某个分支pull下来【下面的命令是将主分支main的内容拉下来】</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git pull origin main</span><br></pre></td></tr></table></figure><p>之后，你就可以在本地文件夹中看到相应的内容了。</p><h2 id="本地代码push到远程端Github"><a href="#本地代码push到远程端Github" class="headerlink" title="本地代码push到远程端Github"></a>本地代码push到远程端Github</h2><p>当我们添加或修改了代码后，就可以将本地内容推送到远程了。这一步我喜欢用GUI操作。<br>打开相应的仓库，这时会显示我们已有的changes. Save these changes, 填写相应的commit message，大致描述为什么提交，新增或修改了哪些功能等等<br>然后点击commit, 之后push就ok了。</p><p>之前提到过Github上的主分支叫main，而在Git GUI中，默认还是推送到master. 如果不想之后手动merge, 在push前可以创建名为main的分支，push时选择该分支。</p><h2 id="本地代码push到远程端Github-（命令行方法）"><a href="#本地代码push到远程端Github-（命令行方法）" class="headerlink" title="本地代码push到远程端Github （命令行方法）"></a>本地代码push到远程端Github （命令行方法）</h2><p>在本地仓库目录下进入cmd，命令如下：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git pull --rebase origin main</span><br><span class="line">git push origin main</span><br></pre></td></tr></table></figure><h1 id="使用Tips"><a href="#使用Tips" class="headerlink" title="使用Tips"></a>使用Tips</h1><ol><li><p>这次的项目使用Java写的，IDE用的是Eclipse. 创建Eclipse项目并写完一定量代码后，我决定先上传到远程仓库。<br>这时我犯了一个错误：直接把整个项目文件夹上传了。这里面还有一些Eclipse的配置文件。我现在还没有在其他IDE环境下运行pull下来的代码，但或许会有配置问题。这个另说。<br>然而当我在本地把项目文件夹（记作A）当作仓库，并下拉Github代码时，它在A下又创建了一个A. 有点类似套娃？？？<br>所以我觉得应该只把src, bin这两个上传就好了，其他的配置文件不用管。<br>在网上就这个问题查了一下，回答说利用.gitignore文件可以自定义上传时要忽略的文件。<br>并且，<a href="https://www.toptal.com/developers/gitignore">一个可自动生成.gitignore文件的网站</a>只需要输入操作系统、IDE、编程语言就好了。</p></li><li><p>就哪些文件需要上传而言，原则之一就是可以让别人fork代码后在任何IDE下都能用。<br>另外，如果有设计文档、说明文档、更新日志之类帮助理解项目内容的，也要放进去。</p></li></ol><h1 id="写在最后"><a href="#写在最后" class="headerlink" title="写在最后"></a>写在最后</h1><p>Git真是个不错的工具，Github更是个很棒的平台，不愧是“饭桶中心”、“全球最大的同性交友网站”（手动狗头）</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;Github初体验&quot;&gt;&lt;a href=&quot;#Github初体验&quot; class=&quot;headerlink&quot; title=&quot;Github初体验&quot;&gt;&lt;/a&gt;Github初体验&lt;/h1&gt;&lt;p&gt;这不是要做算法课的编程项目嘛，两个人协同写代码。其实对于我来说，和别人一起写代码是比</summary>
+      
+    
+    
+    
+    <category term="Github" scheme="https://yunhao-tech.github.io/categories/Github/"/>
+    
+    
+    <category term="GitHub" scheme="https://yunhao-tech.github.io/tags/GitHub/"/>
+    
+    <category term="Git" scheme="https://yunhao-tech.github.io/tags/Git/"/>
+    
+  </entry>
+  
+</feed>
