@@ -8,6 +8,7 @@ cover: 'https://s2.loli.net/2023/01/29/fuGN2YyVgRU67pc.jpg'
 description: 你知道如何在 Python 中实现栈、堆、队列、图吗？
 abbrlink: df714f20
 date: 2023-01-28 20:38:33
+published: false
 ---
 
 学习Python之后，仿佛栈、堆、队列等数据结构都离我远去了，这是因为Python以其高效的 list, dict, set 很大程度上代替了它们。但还是有必要梳理一下这些数据结构，了解它们的基本概念，以及在 Python 中如何实现。
