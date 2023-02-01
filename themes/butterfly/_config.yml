@@ -20,8 +20,8 @@ menu:
     标签: /tags/ || fas fa-tags
     专栏: /categories/ || fas fa-folder-open
   更多 || fa-solid fa-mug-hot:
-    收藏: /storage/ || fa-solid fa-star
-    Todo: /Todo/ || fa-sharp fa-solid fa-flag
+    网站收藏: /网站收藏/ || fa-solid fa-star
+    关于我: /关于我/ || fa-sharp fa-solid fa-flag
   RSS: /atom.xml  || fas fa-rss 
   # 友链: /link/ || fas fa-link
   # 关于: /about/ || fas fa-heart
