@@ -13,6 +13,10 @@ date: 2023-02-01 14:10:00
 # 实用工具
 - [draw.io](https://app.diagrams.net/)：在线开源绘图工具，流程图、网络图、结构图都不在话下~
 
+- [Pixel Map Generator](https://pixelmap.amcharts.com)：在地图上标注、涂色...创建你的精美地图。支持世界各个国家的地图
+
+- [geektyper](https://geektyper.com/mobile/)：模拟黑客的桌面，在键盘上乱敲就可以让命令行飞速滚动。当别人距离你的屏幕足够远时，你就是黑客！
+
 # 休闲时刻
 - [Summer Afternoon](https://summer-afternoon.vlucendo.com/)：一款 Web 3D 小游戏，这里有夏日、蓝天白云、大海、树林、小动物们，以及戴着草帽的你。伴随着轻快的 BGM 和你的脚步声，你可以在这片区域随意奔跑、探索、感受夏日。
 
