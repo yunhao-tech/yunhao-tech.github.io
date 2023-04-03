@@ -5,4 +5,4 @@ hexo clean && hexo g && hexo server
 hexo d
 
 插入图片：
-{% img URL %}
+{% img URL title %}
